@@ -72,3 +72,13 @@ deploy in development ~
 ![alt text](imgs/effNetEval.png)
 ### Acc/Loss Curve
 ![alt text](imgs/effNetEval2.png)
+
+# Validation
+## K-foll Cross validation
+### K-Fold Cross-Validation Results (k=5)
+
+| Model           | Mean Accuracy  | Std Dev | 
+|-----------------|-----------|--------|
+| **Custom CNN**      | 85.90%       | ± 1.69%   | 
+| **MobileNetV2**  | 75.73%      | ± 2.07%   | 
+| **EfficientNetB0**     | 83.99%      | ± 4.87%   | 
